@@ -89,6 +89,7 @@
         <h5 class="font-weight-normal">Fun fact</h5>
         <p><?='If you cant tell from the quote Ursula K. Le Guin is my all time favorite author and i recommend her book 
         series Earthsea to start.'?></p>
+          <a href="index.php" class="text-black"> Return to Photo Book</a>
       </div>
     </div>
   </div>
