@@ -1,11 +1,43 @@
 <html lang="en">
+<?php
+$classmates=array(
+    array(
+        'name'=>'Robert Brunner',
+        'year'=> 4,
+        'skills'=>array('java','linux','apache'),
+        'intro'=>'I am working on my second bachelors degree at NKU, my first being a sociology major with a woman\'s 
+                    and gender study\'s minor. Over the summer i bought my home in latonia and look forward to the many tech 
+                    projects i will be able to create here. my other hobby\'s include working on my two servers, video games and 
+                    spending time with my many pets!',
+        'dreamC'=>'Linux Developer',
+        'dreamJ'=>'KDE'),
+    array(
+        'name'=>'John Doe',
+        'year'=> 3,
+        'skills'=>array('HTML','Windows','SQL'),
+        'intro'=>'Placerat ultrices lacus elementum eu purus, proin ullamcorper class sagittis molestie, aliquam
+                tempor nec maecenas varius sem neque metus nostra ut tortor et auctor augue feugiat, taciti justo sapien
+                lobortis vivamus taciti malesuada accumsan egestas.',
+        'dreamC'=>'Windows Admin',
+        'dreamJ'=>'Microsoft'),
+    array(
+        'name'=>'Jane Doe',
+        'year'=> 2,
+        'skills'=>array('Python','linux','Ruby'),
+        'intro'=>'Placerat ultrices lacus elementum eu purus, proin ullamcorper class sagittis molestie, aliquam
+                tempor nec maecenas varius sem neque metus nostra ut tortor et auctor augue feugiat, taciti justo sapien
+                lobortis vivamus taciti malesuada accumsan egestas.',
+        'dreamC'=>'Game Dev',
+        'dreamJ'=>'Blizzard')
+)
+?>
 	<!-- https://www.bootdey.com/snippets/view/team-user-resume#html -->
 		<meta charset="utf-8">
+        <title><?='ASE 230 - Robert Brunner'?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
 	<body>
 		<link rel="stylesheet" href="assets/css/detail.css" />
-		<title><?='ASE 230 - Robert Brunner'?></title>
 		<div class="container text-center mb-5">
 			<h1><?='ASE 230 - Robert Brunner'?></h1>
 		</div>
@@ -95,3 +127,4 @@
   </div>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
