@@ -58,18 +58,21 @@ $classmates=array(
 
     <div class="row">
         <!-- Single Advisor-->
+
         <div class="col-12 col-sm-6 col-lg-3">
 
             <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                 <!-- Team Thumb-->
-                <div class="advisor_thumb"><a href="robert_brunner.php"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt=""></a>
+                <div class="advisor_thumb"><a href="detail.php?q=0"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt=""></a>
                     <!-- Social Info-->
-                    <div class="social-info"><a href="robert_brunner.php"><i class="fa fa-facebook"></i></a><a href="robert_brunner.php"><i class="fa fa-twitter"></i></a><a href="robert_brunner.php"><i class="fa fa-linkedin"></i></a></div>
+                    <div class="social-info"><a href="detail.php?q=0"><i class="fa fa-facebook"></i></a><a href="detail.php?q=0"><i class="fa fa-twitter"></i></a><a href="detail.php?q=0"><i class="fa fa-linkedin"></i></a></div>
                 </div>
                 <!-- Team Details-->
                 <div class="single_advisor_details_info">
-                    <h6><?php echo 'Robert Brunner' ?></h6>
-                    <p class="designation"><?php echo 'Student' ?></p>
+                    <h6><?php echo $classmates[0]['name'] ?></h6>
+                    <p class="designation"><?php foreach($classmates[0]['year']as$year){
+                        echo'📕';
+                        } ?> </p>
                 </div>
             </div>
         </div>
@@ -77,14 +80,16 @@ $classmates=array(
         <div class="col-12 col-sm-6 col-lg-3">
             <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                 <!-- Team Thumb-->
-                <div class="advisor_thumb"><a href="robert_brunner.php"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt=""></a>
+                <div class="advisor_thumb"><a href="detail.php?q=1"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt=""></a>
                     <!-- /Social Info-->
-                    <div class="social-info"><a href="robert_brunner.php"><i class="fa fa-facebook"></i></a><a href="robert_brunner.php"><i class="fa fa-twitter"></i></a><a href="robert_brunner.php"><i class="fa fa-linkedin"></i></a></div>
+                    <div class="social-info"><a href="detail.php?q=1"><i class="fa fa-facebook"></i></a><a href="detail.php?q=1"><i class="fa fa-twitter"></i></a><a href="detail.php?q=1"><i class="fa fa-linkedin"></i></a></div>
                 </div>
                 <!-- Team Details-->
                 <div class="single_advisor_details_info">
-                    <h6>Nazrul Islam</h6>
-                    <p class="designation">UI Designer</p>
+                    <h6><?php echo $classmates[1]['name'] ?></h6>
+                    <p class="designation"><?php foreach($classmates[1]['year']as$year){
+                            echo'📕';
+                        } ?> </p>
                 </div>
             </div>
         </div>
@@ -92,29 +97,16 @@ $classmates=array(
         <div class="col-12 col-sm-6 col-lg-3">
             <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                 <!-- Team Thumb-->
-                <div class="advisor_thumb"><a href="robert_brunner.php"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt=""></a>
+                <div class="advisor_thumb"><a href="detail.php?q=2"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt=""></a>
                     <!-- Social Info-->
-                    <div class="social-info"><a href="robert_brunner.php"><i class="fa fa-facebook"></i></a><a href="robert_brunner.php"><i class="fa fa-twitter"></i></a><a href="robert_brunner.php"><i class="fa fa-linkedin"></i></a></div>
+                    <div class="social-info"><a href="detail.php?q=2"><i class="fa fa-facebook"></i></a><a href="detail.php?q=2"><i class="fa fa-twitter"></i></a><a href="detail.php?q=2"><i class="fa fa-linkedin"></i></a></div>
                 </div>
                 <!-- Team Details-->
                 <div class="single_advisor_details_info">
-                    <h6>Riyadh Khan</h6>
-                    <p class="designation">Developer</p>
-                </div>
-            </div>
-        </div>
-        <!-- Single Advisor-->
-        <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                <!-- Team Thumb-->
-                <div class="advisor_thumb"><a href="robert_brunner.php"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt=""></a>
-                    <!-- Social Info-->
-                    <div class="social-info"><a href="robert_brunner.php"><i class="fa fa-facebook"></i></a><a href="robert_brunner.php"><i class="fa fa-twitter"></i></a><a href="robert_brunner.php"><i class="fa fa-linkedin"></i></a></div>
-                </div>
-                <!-- Team Details-->
-                <div class="single_advisor_details_info">
-                    <h6>Niloy Islam</h6>
-                    <p class="designation">Marketing Manager</p>
+                    <h6><?php echo $classmates[2]['name'] ?></h6>
+                    <p class="designation"><?php foreach($classmates[2]['year']as$year){
+                            echo'📕';
+                        } ?> </p>
                 </div>
             </div>
         </div>
