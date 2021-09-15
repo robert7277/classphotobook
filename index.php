@@ -69,9 +69,9 @@ $classmates=array(
 
                 <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                     <!-- Team Thumb-->
-                    <div class="advisor_thumb"><a href="detail.php?q=0"><img src="<?=$classmate['pic']?>" alt=""></a>
+                    <div class="advisor_thumb"><a href="detail.php?q=<?=$n?>"><img src="<?=$classmate['pic']?>" alt=""></a>
                         <!-- Social Info-->
-                        <div class="social-info"><a href="detail.php?q=0"><i class="fa fa-facebook"></i></a><a href="detail.php?q=<?=$n?>"><i class="fa fa-twitter"></i></a><a href="detail.php?q=0"><i class="fa fa-linkedin"></i></a></div>
+                        <div class="social-info"><a href="detail.php?q=<?=$n?>"><i class="fa fa-facebook"></i></a><a href="detail.php?q=<?=$n?>"><i class="fa fa-twitter"></i></a><a href="detail.php?q=<?=$n?>"><i class="fa fa-linkedin"></i></a></div>
                     </div>
                     <!-- Team Details-->
                     <div class="single_advisor_details_info">

@@ -112,7 +112,7 @@ $num=$_GET['q']
               ?>
               <div class="py-1">
                   <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="<?=$v?>" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" role="progressbar" style="width:<?=$v?>%" aria-valuenow="<?=$v?>" aria-valuemin="0" aria-valuemax="100">
                           <div class="progress-bar-title"><?=$x?></div>
                           <span class="progress-bar-number"><?=$v?></span>
                       </div>
