@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Trung Cao",
+    "school_year": "3",
+    "dob": "2000-02-14",
+    "major": "Computer Science & Applied Software Engineering",
+    "profile_pic": "https:\/\/bootdey.com\/img\/Content\/avatar\/avatar1.png",
+    "facebook": "https:\/\/www.facebook.com\/thtrungid\/",
+    "twitter": "https:\/\/twitter.com\/",
+    "instagram": "https:\/\/www.instagram.com\/jayjason.c\/",
+    "linkedin": "https:\/\/www.linkedin.com\/in\/trungcao\/",
+    "dream_profession": "Full-stack Developer",
+    "dream_company": "Apple",
+    "email": "CAOT1@nku.edu",
+    "short_intro": "Hi everyone! My name is Trung Cao. I am an international student from Vietnam. I am currently a junior in Computer Science and Applied Software Engineering. My dream job is a Full-stack Developer. I am working as a Teaching Assistant for CSC 260 \u2013 Object-Oriented Programming with Dr. Frank and as a tutor at NKU PLUS Learning. I am also doing research and projects with professors to develop websites and web application. I am taking the ASE 230 \u2013 Server-side Programming to have a deeper insight into back-end development.",
+    "goal": "My goal for this class is that I can develop content management system using both front-end and back-end at the end of this course.",
+    "skills": [
+      [
+        "Java",
+        85
+      ],
+      [
+        "JavaScript",
+        80
+      ],
+      [
+        "Node.js & Express.js",
+        75
+      ],
+      [
+        "HTML5 & CSS3 & Bootstrap",
+        90
+      ],
+      [
+        "SQL",
+        60
+      ]
+    ],
+    "fun_facts": "I somehow love coding... like a lot. I can spend hours sitting in front of my computer with a coffee (of course) coding (that sounds nerdy but... meh). I also love photography and videography."
+  },
+  {
+    "name": "Blake Wagner",
+    "school_year": "2",
+    "dob": "2002-08-28",
+    "major": "Cybersecurity",
+    "profile_pic": "https:\/\/bootdey.com\/img\/Content\/avatar\/avatar1.png",
+    "facebook": "https:\/\/www.facebook.com\/",
+    "twitter": "https:\/\/twitter.com\/",
+    "instagram": "https:\/\/www.instagram.com\/",
+    "linkedin": "https:\/\/www.linkedin.com\/",
+    "dream_profession": "N\/A",
+    "dream_company": "FBI",
+    "email": "WAGNERB7@nku.edu",
+    "short_intro": "Blake is a sophomore at Northern Kentucky University. He grew up in Florence Kentucky and went to Dixie \n\t\t\tHeights High School. He decided to go into the cybersecurity field for his interest in computers and \n\t\t\twants to eventually work for the FBI or NSA. He loves watching sports, playing video games, hiking, \n\t\t\ttravelling, or just hanging out with friends.",
+    "goal": "You miss 100% of the shots you don't take. <br>-person",
+    "skills": [
+      [
+        "Java",
+        70
+      ],
+      [
+        "HTML",
+        70
+      ],
+      [
+        "Linux",
+        60
+      ]
+    ],
+    "fun_facts": "Blake has been to 7 different countries outside the United States."
+  },
+  {
+    "name": "Robert Brunner",
+    "school_year": 4,
+    "dob": "1989-02-17",
+    "major": "Computer Information Technology",
+    "profile_pic": "https:\/\/bootdey.com\/img\/Content\/avatar\/avatar1.png",
+    "facebook": "www.facebook.com",
+    "twitter": "www.twitter",
+    "instagram": "www.instagram.com",
+    "linkedin": "www.linkedin.com\/in\/robert-brunner\/",
+    "dream_profession": "Linux Developer",
+    "dream_company": "canonical",
+    "email": "brunner.robert@protonmail.com",
+    "short_intro": "I am working on my second bachelors degree at NKU, my first being a sociology major with a woman's\n\t\t\t\t\t\tand gender study's minor. Over the summer, I bought my home in Latonia and look forward to the many tech\n\t\t\t\t\t\tprojects I will be able to create here. My other hobby's include working on my two servers, video games and\n\t\t\t\t\t\tspending time with my many pets!",
+    "goal": "My goal for this class is to develop a better understaning of serverside scripting so that I can better\n\t\t\t my projects at home",
+    "skills": [
+      [
+        "Linux",
+        90
+      ],
+      [
+        "Apache",
+        70
+      ],
+      [
+        "Java",
+        70
+      ],
+      [
+        "SQL",
+        55
+      ]
+    ],
+    "fun_facts": "Ursula K. Le Guin is my all time favorite author and i recommend her book\n\t\t\tseries Earthsea to start. I love tinkering with my servers and playing video games as well."
+  }
+]
