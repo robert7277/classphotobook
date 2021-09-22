@@ -2,11 +2,20 @@
 function calcAge($dob){
     return date_diff(date_create($dob), date_create())->y;
 }
-function calcdays($dob, $dateFormat='%y%m%d'){
-$b_day = date_create($dob);
-$tempDay = date_create();
-    return date_format($tempDay, $dateFormat);
+
+/**
+ * @throws Exception
+ */
+function calcdays($dob){
+    $new_dob = new DateTime($dob);
+    $today = new DateTime('now');
+    $time = $new_dob->diff($today);
+    return $time->y . " Years, " . $time->m." Months, ".$time->d." Days!";
 }
+
+/**
+ * @throws Exception
+ */
 function displayCards($classmates){
         $n=0;
         foreach($classmates as $classmate){
@@ -36,7 +45,7 @@ function displayCards($classmates){
                        ?>
                         </p>
                         <p class="designation">
-                            Days since born: <?=calcdays($classmate['dob'])?>
+                            Time since being birthed: <br><?=calcdays($classmate['dob'])?>
                         </p>
                     </div>
                 </div>
