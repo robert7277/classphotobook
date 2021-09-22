@@ -10,6 +10,6 @@ function readSomeJson($num){
     return $tempArray[$num];
 }
 function writeJason($newArray){
-    $tempJson = json_encode($newArray);
+    $tempJson = json_encode($newArray, JSON_PRETTY_PRINT);
     file_put_contents('data.json',$tempJson);
 }

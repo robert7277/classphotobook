@@ -5,8 +5,7 @@ function calcAge($dob){
 function calcdays($dob, $dateFormat='%y%m%d'){
 $b_day = date_create($dob);
 $tempDay = date_create();
-$todayDate =date_format($tempDay, $dateFormat);
-return;
+    return date_format($tempDay, $dateFormat);
 }
 function displayCards($classmates){
         $n=0;
@@ -36,9 +35,9 @@ function displayCards($classmates){
                         Age:<?=calcAge($classmate['dob'])
                        ?>
                         </p>
-                        <!--<p class="designation">
-                            Days since born:
-                        </p>-->
+                        <p class="designation">
+                            Days since born: <?=calcdays($classmate['dob'])?>
+                        </p>
                     </div>
                 </div>
             </div>
